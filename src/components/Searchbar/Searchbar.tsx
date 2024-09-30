@@ -21,14 +21,14 @@ const Searchbar: React.FC<SearchbarProps> = ({ medicineName }) => {
   };
 
   return (
-    <div>
+    <div id='seachbar-div'>
       <input 
         type="text" 
         value={inputValue} 
         onChange={handleInputChange} 
         placeholder="Digite o nome do medicamento"
       />
-      <button type="button" onClick={handleSearch}>
+      <button id='search-button'type="button" onClick={handleSearch}>
         Search
         <img src={require('../../assets/magnifying-glass.png')} height='20px' />
       </button>
