@@ -1,0 +1,18 @@
+#container-list {
+    max-width: 100%; /* Alterado para 100% para ser responsivo */
+    height: auto; /* Permite que a altura se ajuste automaticamente */
+    padding: 1rem; /* Adicionado padding para espaçamento interno */
+}
+
+#list-background {
+    background-color: #67B4CA;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    gap: 1rem; /* Alterado para rem para ser mais responsivo */
+    padding: 1rem; /* Adicionado padding para espaçamento interno */
+    width: 100%;
+    max-width: 400px; /* Limita a largura máxima */
+}

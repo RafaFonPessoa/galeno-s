@@ -6,5 +6,15 @@ div {
 
 #alerts {
     display: flex;
-    flex-direction: row;
+    justify-content: space-around; /* Espaço uniforme entre os blocos */
+    align-items: flex-start; /* Alinha os itens ao topo */
+    padding: 20px;
+    gap: 20px; /* Espaço entre os blocos */
+}
+
+@media (max-width: 768px) {
+    #alerts {
+        flex-direction: column; /* Muda para coluna em telas pequenas */
+        align-items: center; /* Centraliza os itens */
+    }
 }
